@@ -43,16 +43,16 @@
             <div class="selectmenu">
             <label>Which one you perfer us to contact you first?</label>
             <select id="formselect" onchange="displaySelectOption()">
-                <option id="optionselect" value="default" selected >Select One</option>
-                <option id="optionemail" value="email">Email</option>
-                <option id="optionphone" value="phone">Phone</option>
+                <option id="optionselect" value="default" selected>Select One</option>
+                <option id="optionemail" value="email" >Email</option>
+                <option id="optionphone" value="phone" hidden>Phone</option>
             </select>
             </div>
-            <div id="email">
+            <div id="email" style="display: none;">
             <label>Enter Your Email:</label>
                 <input type="email" id="email-input" name="email">
             </div>
-            <div id="phone">    
+            <div id="phone" style="display: none;">    
             <label>Enter Your Phone:</label>
                 <input type="tel" id="phone-input" name="phone">
             </div>
